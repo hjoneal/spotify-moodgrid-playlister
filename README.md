@@ -1,8 +1,18 @@
 ## Spotify MoodGrid
 #### 11th April 2023
 
-### OVERVIEW
-Spotify Moodgrid Playlist Subsetter is a tool to combine your multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
+### Executive summary
+Spotify Moodgrid Playlister is a tool to combine your multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
+
+- 160,000 song dataset was downloaded using Spotify's API
+- Playlists searched for based on queries that labelled songs as belonging to one of four moods:  Energetic/Chilled/Happy/Sad
+- 2x logistic classification models:  Energetic/Chilled  |  Happy/Sad
+- Model features used to give every song a 'Happy score' and 'Energy score' (i.e. a MoodGrid x/y coordinate)
+- Models applied to new data loaded in from Spotify to give every song a coordinate on the MoodGrid
+- Nearest neighbours chosen to output a new playlist direct to Spotify
+
+### Introduction
+Spotify Moodgrid Playlister is a tool to combine your multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
 
 Spotify playlists have become a staple in the lives of music lovers worldwide. They provide a personalised and curated listening experience that can reflect our unique tastes, preferences, and moods. A third of Spotify listening time happens on Spotify curated playlists, with another third happening on user-generated playlists.
 
@@ -33,8 +43,14 @@ The most influential features for predicting a Sad song were 'metal', 'loudness'
 MoodGrid
 The models were fitted on the full dataset, and happy/energy scores were generated for every track.  This gave every track a MoodGrid coordinate.  The fitted model could then be used to score any new song read in with the Spotify API.  An interactive Streamlit application was created to allow a user to input multiple Spotify URLs, display the songs on their own MoodGrid, and select a number of songs to output to a new playlist, centred around their chosen Happy/Energy score.
 
+### Conclusions and Model limitations
 
-data science capstone project
+The model performance on the test data of 80% on Energy/Chilled and 68% on Happy/Sad is limited by a number of factors.
+
+- **Noise in search results** resulting in playlists that are inappropriate for the desired mood - e.g. energy cleanse is labelled as energetic when it is relaxing ambient
+- **Subjectivity of moods** - happiness and sadness is highly subjective and different songs can evoke different feelings for a variety of different reasons and lived experiences.
+- **Size of dataset** - the dataset size of 150,000 songs may not capture enough of the variance in what determines a songs mood.  We have seen that the model could have benefitted from more examples of chilled rap and lighter metal so as not to create as much bias.
+
 
 Project Organization
 ------------
