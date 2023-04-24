@@ -2,7 +2,7 @@
 #### 11th April 2023
 
 ### Executive summary
-Spotify Moodgrid Playlister is a tool to combine your multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
+Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
 
 - 160,000 song dataset was downloaded using Spotify's API
 - Playlists searched for based on queries that labelled songs as belonging to one of four moods:  Energetic/Chilled/Happy/Sad
@@ -12,7 +12,7 @@ Spotify Moodgrid Playlister is a tool to combine your multiple playlists, give t
 - Nearest neighbours chosen to output a new playlist direct to Spotify
 
 ### Introduction
-Spotify Moodgrid Playlister is a tool to combine your multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
+Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
 
 Spotify playlists have become a staple in the lives of music lovers worldwide. They provide a personalised and curated listening experience that can reflect our unique tastes, preferences, and moods. A third of Spotify listening time happens on Spotify curated playlists, with another third happening on user-generated playlists.
 
