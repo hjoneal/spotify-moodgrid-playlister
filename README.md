@@ -30,6 +30,9 @@ Project Organization
     ├── streamlit          <- Streamlit web app for creating MoodGrid
 
 
+Tableau Dashboard:
+https://public.tableau.com/app/profile/harry.neal/viz/moodgrid_playlister/PublicDashboard?publish=yes
+
 ## Spotify MoodGrid
 #### 11th April 2023
 
