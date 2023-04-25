@@ -1,3 +1,33 @@
+Project Organization
+------------
+    
+    ├── README.md          <- The top-level README for developers using this project.
+    |
+    ├── SummaryReport_Spotify_MoodGrid.pdf    <- Executive summary
+    ├── DemoVideo_Spotify_MoodGrid_Playlister.mp4    <-  5 minute video demo of the playlister and project
+    ├── Presentation_Spotify_MoodGrid_Playlister.pdf    <- Final presentation of the project
+    |
+    ├── notebooks
+    |   ├── Harry_Neal_SpotifyMoodGrid_1_data_acquisition_cleaning.ipynb   <- Project notebook 1 - data cleaning
+    |   ├── Harry_Neal_SpotifyMoodGrid_2_EDA_preprocessing.ipynb           <- Project notebook 2 - EDA
+    |   ├── Harry_Neal_SpotifyMoodGrid_3_modelling.ipynb                   <- Project notebook 3 - modelling
+    |   ├── Harry_Neal_SpotifyMoodGrid_4_moodgrid_discussion.ipynb         <- Project notebook 4 - discussion
+    |
+    ├── moodgrid_env.yml   <- Environments file
+    |
+    ├── data (google drive link: https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)
+    │   ├── CSVs       
+    │   ├── pickles        
+    |
+    ├── shorter moodgrid_demo (https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)       
+    │   
+    ├── data_download_scripts   <- Scripts for downloading data from Spotify API
+    │
+    ├── streamlit_local         <- Streamlit app for creating MoodGrid run locally
+    │
+    ├── streamlit          <- Streamlit web app for creating MoodGrid
+
+
 ## Spotify MoodGrid
 #### 11th April 2023
 
@@ -50,38 +80,7 @@ The model performance on the test data of 80% on Energy/Chilled and 68% on Happy
 - **Noise in search results** resulting in playlists that are inappropriate for the desired mood - e.g. energy cleanse is labelled as energetic when it is relaxing ambient
 - **Subjectivity of moods** - happiness and sadness is highly subjective and different songs can evoke different feelings for a variety of different reasons and lived experiences.
 - **Size of dataset** - the dataset size of 150,000 songs may not capture enough of the variance in what determines a songs mood.  We have seen that the model could have benefitted from more examples of chilled rap and lighter metal so as not to create as much bias.
-
-
-Project Organization
-------------
-
-    
-    ├── README.md          <- The top-level README for developers using this project.
-    |
-    ├── Harry_Neal_Spotify_MoodGrid_SummaryReport.pdf  <- Executive summary
-    |
-    ├── Harry_Neal_SpotifyMoodGrid_1_data_acquisition_cleaning.ipynb   <- Project notebook 1 - data cleaning
-    ├── Harry_Neal_SpotifyMoodGrid_2_EDA_preprocessing.ipynb           <- Project notebook 2 - EDA
-    ├── Harry_Neal_SpotifyMoodGrid_3_modelling.ipynb                   <- Project notebook 3 - modelling
-    ├── Harry_Neal_SpotifyMoodGrid_4_moodgrid_discussion.ipynb         <- Project notebook 4 - discussion
-
-    |
-    ├── capstone_env.yml
-    |
-    ├── data (google drive link: https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)
-    │   ├── CSVs       
-    │   ├── pickles        
-    |
-    ├── moodgrid_demo (https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)       
-    │   
-    ├── data_download_scripts   <- Scripts for downloading data from Spotify API
-    │
-    ├── streamlit_local         <- Streamlit app for creating MoodGrid run locally
-    │
-    ├── streamlit          <- Streamlit web app for creating MoodGrid
     
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
