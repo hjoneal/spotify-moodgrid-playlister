@@ -1,3 +1,25 @@
+## Spotify MoodGrid Playlister
+
+### Executive summary
+Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
+
+- 160,000 song dataset was downloaded using Spotify's API
+- Playlists searched for based on queries that labelled songs as belonging to one of four moods:  Energetic/Chilled/Happy/Sad
+- 2x logistic classification models:  Energetic/Chilled  |  Happy/Sad
+- Model features used to give every song a 'Happy score' and 'Energy score' (i.e. a MoodGrid x/y coordinate)
+- Models applied to new data loaded in from Spotify to give every song a coordinate on the MoodGrid
+- Nearest neighbours chosen to output a new playlist direct to Spotify
+
+Demo videos:
+- 5 minute demo + project overview
+- 2 minute demo (no audio description)
+https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc
+
+
+Tableau Dashboard:
+https://public.tableau.com/app/profile/harry.neal/viz/moodgrid_playlister/PublicDashboard?publish=yes
+
+
 Project Organization
 ------------
     
@@ -21,7 +43,7 @@ Project Organization
     │   ├── CSVs       
     │   ├── pickles        
     |
-    ├── shorter moodgrid_demo (https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)       
+    ├── Demo videos (https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)
     │   
     ├── data_download_scripts   <- Scripts for downloading data from Spotify API
     │
@@ -30,21 +52,6 @@ Project Organization
     ├── streamlit          <- Streamlit web app for creating MoodGrid
 
 
-Tableau Dashboard:
-https://public.tableau.com/app/profile/harry.neal/viz/moodgrid_playlister/PublicDashboard?publish=yes
-
-## Spotify MoodGrid
-#### 11th April 2023
-
-### Executive summary
-Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
-
-- 160,000 song dataset was downloaded using Spotify's API
-- Playlists searched for based on queries that labelled songs as belonging to one of four moods:  Energetic/Chilled/Happy/Sad
-- 2x logistic classification models:  Energetic/Chilled  |  Happy/Sad
-- Model features used to give every song a 'Happy score' and 'Energy score' (i.e. a MoodGrid x/y coordinate)
-- Models applied to new data loaded in from Spotify to give every song a coordinate on the MoodGrid
-- Nearest neighbours chosen to output a new playlist direct to Spotify
 
 ### Introduction
 Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a happy score and an energy score, and then output a new personal playlist centred around your chosen Happy/Energy mood.
