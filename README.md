@@ -3,6 +3,8 @@ Project Organization
     
     ├── README.md          <- The top-level README for developers using this project.
     |
+    ├── Tableau dashboard https://public.tableau.com/app/profile/harry.neal/viz/moodgrid_playlister/PublicDashboard?publish=yes
+    |
     ├── SummaryReport_Spotify_MoodGrid.pdf    <- Executive summary
     ├── DemoVideo_Spotify_MoodGrid_Playlister.mp4    <-  5 minute video demo of the playlister and project
     ├── Presentation_Spotify_MoodGrid_Playlister.pdf    <- Final presentation of the project
