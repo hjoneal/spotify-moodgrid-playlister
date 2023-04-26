@@ -27,7 +27,7 @@ import plotly.express as px
 import streamlit as st
 from streamlit_extras.stateful_button import button
 
-st.title("MoodGrid Playlist Subsetter")
+st.title("MoodGrid Playlister")
 st.text("A Harry Neal innovation")
 st.subheader("Step 1: Add one or more Spotify playlists to see where the songs sit on the Happiness & Energy MoodGrid")
 st.text("")
