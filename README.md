@@ -11,8 +11,10 @@ Spotify Moodgrid Playlister is a tool to combine multiple playlists, give them a
 - Nearest neighbours chosen to output a new playlist direct to Spotify
 
 Demo videos:
-- 5 minute demo + project overview
-- 2 minute demo (no audio description)
+- 1 minute YouTube demo
+https://youtu.be/QW2bY7GKVAg
+
+- 5 minute demo + project overview & discussion
 https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc
 
 
@@ -25,10 +27,7 @@ Project Organization
     
     ├── README.md          <- The top-level README for developers using this project.
     |
-    ├── Tableau dashboard https://public.tableau.com/app/profile/harry.neal/viz/moodgrid_playlister/PublicDashboard?publish=yes
-    |
     ├── SummaryReport_Spotify_MoodGrid.pdf    <- Executive summary
-    ├── DemoVideo_Spotify_MoodGrid_Playlister.mp4    <-  5 minute video demo of the playlister and project
     ├── Presentation_Spotify_MoodGrid_Playlister.pdf    <- Final presentation of the project
     |
     ├── notebooks
@@ -43,7 +42,6 @@ Project Organization
     │   ├── CSVs       
     │   ├── pickles        
     |
-    ├── Demo videos (https://drive.google.com/drive/folders/1ZPrauYCEugpCRzrxdTdmWd0NsvH3gxRc?usp=share_link)
     │   
     ├── data_download_scripts   <- Scripts for downloading data from Spotify API
     │
