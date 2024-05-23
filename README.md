@@ -60,10 +60,14 @@ People love making playlists because it allows them to express themselves, showc
 
 ### Data Download, Cleaning & Exploratory Data Analysis
 A dataset of 160,000 tracks was downloaded using Spotify's Web API.  Playlists were searched using queries that fit under one of four moods:  Happy, Sad, Energetic, Chilled.  53 different queries were used to gain a broad spread of feelings across each mood.  Some examples include:
-Happy: blissful, contented, ecstasy, euphoric, happy, positive
-Sad: angry, crying, depress, grief, sad
-Energetic: adrenaline, energetic, heavy, high octane, pumped
-Chilled:  calm, chill, easy, mellow, relax
+
+Happy: 'blissful', 'contented', 'ecstasy', 'euphoric', 'happy', 'positive'
+
+Sad: 'angry', 'crying', 'depress', 'grief', 'sad'
+
+Energetic: 'adrenaline', 'energetic', 'heavy', 'high octane', 'pumped'
+
+Chilled:  'calm', 'chill', 'easy', 'mellow', 'relax'
 
 1881 playlists were downloaded, with 20 features for each track, including artist and track details, genre, and audio features.
 Before any processes were applied to the data an 80/20% train/test split was carried out
